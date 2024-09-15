@@ -12,6 +12,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.get("/test")
+@app.get("/test") 
 async def read_root():
     return {"message": "Backend is working!"}
