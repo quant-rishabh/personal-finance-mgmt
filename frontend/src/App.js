@@ -1,11 +1,11 @@
-import './App.css';
+import ExpenseTracker from "./components/ExpenseTracker/ExpenseTracker";
 
-function App() {
-  return (
-    <div className="App">
-      Hello world
-    </div>
-  );
+const App = () => {
+    return(
+        <ExpenseTracker>
+
+        </ExpenseTracker>
+    )
 }
 
 export default App;
